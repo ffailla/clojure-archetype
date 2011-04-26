@@ -1,0 +1,23 @@
+clojure-archetype
+
+Installation:
+
+Clone the git repo and run:
+
+mvn install
+
+This will install the maven archetype in your local maven repository.
+
+Usage:
+
+Copy the cljproject file to a location in your path.  Run the following to create a new clojure project:
+
+cljproject {groupId} {artifactId}
+
+where {groupId} {artifactId} corresponds to the maven group and artifact ids respectively.  A new directory named by {artifactId} will be created and a template clojure project will be there referencing the following:
+
+clojure-1.2.0
+clojure-contrib-1.2.0
+swank-clojure-1.4.0-SNAPSHOT
+
+A single "Hello World" clj file will be created (src/main/clojure/app.clj) containing a -main fn.

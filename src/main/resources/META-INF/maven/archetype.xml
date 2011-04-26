@@ -1,0 +1,6 @@
+<archetype>
+  <id>clojure-archetype</id>
+  <resources>
+    <resource>src/main/clojure/app.clj</resource>
+  </resources>
+</archetype>
