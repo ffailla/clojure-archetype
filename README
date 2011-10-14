@@ -16,8 +16,8 @@ cljproject {groupId} {artifactId}
 
 where {groupId} {artifactId} corresponds to the maven group and artifact ids respectively.  A new directory named by {artifactId} will be created and a template clojure project will be there referencing the following:
 
-clojure-1.2.0
-clojure-contrib-1.2.0
-swank-clojure-1.4.0-SNAPSHOT
+clojure-1.3.0
+swank-clojure-1.3.0
 
 A single "Hello World" clj file will be created (src/main/clojure/app.clj) containing a -main fn.
+A single test file called runtests.clj will be created: scripts/runtests.clj

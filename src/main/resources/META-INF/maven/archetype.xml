@@ -2,5 +2,6 @@
   <id>clojure-archetype</id>
   <resources>
     <resource>src/main/clojure/app.clj</resource>
+    <resource>src/scripts/runtests.clj</resource>
   </resources>
 </archetype>
